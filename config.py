@@ -4,7 +4,7 @@ class Config:
     
     SECRET_KEY = 'adds'
     QUOTE_API_BASE_URL = 'http://quotes.stormconsultancy.co.uk/random.json'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://arthur:***@localhost/blog'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://@localhost/blog'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     
     #  email configurations
